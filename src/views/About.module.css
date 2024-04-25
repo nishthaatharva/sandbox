@@ -1,0 +1,13 @@
+/* About.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .form-container {
+    width: 600px; /* Adjust the width as needed */
+  }
+  
