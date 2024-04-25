@@ -15,7 +15,7 @@ const appsNavigationConfig: NavigationTree[] = [
         translateKey: '',
         icon: 'apps',
         type: NAV_ITEM_TYPE_TITLE,
-        authority: ['User','Administrator'],
+        authority: [ADMIN, USER],
         subMenu: [
             {
                 key: 'apps.home',
@@ -24,7 +24,7 @@ const appsNavigationConfig: NavigationTree[] = [
                 translateKey: '',
                 icon: 'home',
                 type: NAV_ITEM_TYPE_COLLAPSE,
-                authority: ['Administrator'],
+                authority: [ADMIN],
                 subMenu:[]
             },
             {
@@ -34,7 +34,7 @@ const appsNavigationConfig: NavigationTree[] = [
                 translateKey: 'nav.appsProject.project',
                 icon: 'project',
                 type: NAV_ITEM_TYPE_COLLAPSE,
-                authority: ['User','Administrator'],
+                authority: [ADMIN, USER],
                 subMenu: [
                     {
                         key: 'appsProject.dashboard',
@@ -43,7 +43,7 @@ const appsNavigationConfig: NavigationTree[] = [
                         translateKey: 'nav.appsProject.dashboard',
                         icon: '',
                         type: NAV_ITEM_TYPE_ITEM,
-                        authority: ['User','Administrator'],
+                        authority: [ADMIN, USER],
                         subMenu: [],
                     },
                     {
@@ -53,7 +53,7 @@ const appsNavigationConfig: NavigationTree[] = [
                         translateKey: 'nav.appsProject.projectList',
                         icon: '',
                         type: NAV_ITEM_TYPE_ITEM,
-                        authority: ['User','Administrator'],
+                        authority: [ADMIN, USER],
                         subMenu: [],
                     },
                     // {
@@ -63,7 +63,7 @@ const appsNavigationConfig: NavigationTree[] = [
                     //     translateKey: 'nav.appsProject.scrumBoard',
                     //     icon: '',
                     //     type: NAV_ITEM_TYPE_ITEM,
-                    //     authority: ['User','Administrator'],
+                    //     authority: [ADMIN, USER],
                     //     subMenu: [],
                     // },
                     // {
@@ -73,7 +73,7 @@ const appsNavigationConfig: NavigationTree[] = [
                     //     translateKey: 'nav.appsProject.issue',
                     //     icon: '',
                     //     type: NAV_ITEM_TYPE_ITEM,
-                    //     authority: ['User','Administrator'],
+                    //     authority: [ADMIN, USER],
                     //     subMenu: [],
                     // },
                 ],
@@ -85,7 +85,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.appsCrm.crm',
             //     icon: 'crm',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'appsCrm.dashboard',
@@ -94,7 +94,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsCrm.dashboard',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         // {
@@ -104,7 +104,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //         //     translateKey: 'nav.appsCrm.calendar',
             //         //     icon: '',
             //         //     type: NAV_ITEM_TYPE_ITEM,
-            //         //     authority: ['User','Administrator'],
+            //         //     authority: [ADMIN, USER],
             //         //     subMenu: [],
             //         // },
             //         // {
@@ -114,7 +114,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //         //     translateKey: 'nav.appsCrm.customers',
             //         //     icon: '',
             //         //     type: NAV_ITEM_TYPE_ITEM,
-            //         //     authority: ['User','Administrator'],
+            //         //     authority: [ADMIN, USER],
             //         //     subMenu: [],
             //         // },
             //         // {
@@ -124,7 +124,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //         //     translateKey: 'nav.appsCrm.customerDetails',
             //         //     icon: '',
             //         //     type: NAV_ITEM_TYPE_ITEM,
-            //         //     authority: ['User','Administrator'],
+            //         //     authority: [ADMIN, USER],
             //         //     subMenu: [],
             //         // },
             //         // {
@@ -134,7 +134,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //         //     translateKey: 'nav.appsCrm.mail',
             //         //     icon: '',
             //         //     type: NAV_ITEM_TYPE_ITEM,
-            //         //     authority: ['User','Administrator'],
+            //         //     authority: [ADMIN, USER],
             //         //     subMenu: [],
             //         // },
             //     ],
@@ -146,7 +146,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.appsSales.sales',
             //     icon: 'sales',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'appsSales.dashboard',
@@ -155,7 +155,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.dashboard',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -165,7 +165,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.productList',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -175,7 +175,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.productEdit',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -185,7 +185,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.productNew',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -195,7 +195,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.orderList',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -205,7 +205,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsSales.orderDetails',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -217,7 +217,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.appsCrypto.crypto',
             //     icon: 'crypto',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'appsCrypto.dashboard',
@@ -226,7 +226,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsCrypto.dashboard',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -236,7 +236,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsCrypto.portfolio',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -246,7 +246,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsCrypto.market',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -256,7 +256,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsCrypto.wallets',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -268,7 +268,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.appsknowledgeBase.knowledgeBase',
             //     icon: 'knowledgeBase',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'appsknowledgeBase.helpCenter',
@@ -277,7 +277,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsknowledgeBase.helpCenter',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -287,7 +287,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsknowledgeBase.article',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -297,7 +297,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsknowledgeBase.manageArticles',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -307,7 +307,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsknowledgeBase.editArticle',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -319,7 +319,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.appsAccount.account',
             //     icon: 'account',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'appsAccount.settings',
@@ -328,7 +328,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsAccount.settings',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -338,7 +338,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsAccount.invoice',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -348,7 +348,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsAccount.activityLog',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -358,7 +358,7 @@ const appsNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.appsAccount.kycForm',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],

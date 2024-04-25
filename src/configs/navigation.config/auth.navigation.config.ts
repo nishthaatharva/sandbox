@@ -15,7 +15,7 @@ const authNavigationConfig: NavigationTree[] = [
     //     translateKey: 'nav.authentication.authentication',
     //     icon: 'authentication',
     //     type: NAV_ITEM_TYPE_TITLE,
-    //     authority: ['User','Administrator'],
+    //     authority: [ADMIN, USER],
     //     subMenu: [
     //         {
     //             key: 'authentication.signIn',
@@ -24,7 +24,7 @@ const authNavigationConfig: NavigationTree[] = [
     //             translateKey: 'nav.authentication.signIn',
     //             icon: 'signIn',
     //             type: NAV_ITEM_TYPE_COLLAPSE,
-    //             authority: ['User','Administrator'],
+    //             authority: [ADMIN, USER],
     //             subMenu: [
     //                 {
     //                     key: 'authentication.signInSimple',
@@ -33,7 +33,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signInSimple',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -43,7 +43,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signInSide',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -53,7 +53,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signInCover',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //             ],
@@ -65,7 +65,7 @@ const authNavigationConfig: NavigationTree[] = [
     //             translateKey: 'nav.authentication.signUp',
     //             icon: 'signUp',
     //             type: NAV_ITEM_TYPE_COLLAPSE,
-    //             authority: ['User','Administrator'],
+    //             authority: [ADMIN, USER],
     //             subMenu: [
     //                 {
     //                     key: 'authentication.signUpSimple',
@@ -74,7 +74,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signUpSimple',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -84,7 +84,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signUpSide',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -94,7 +94,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.signUpCover',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //             ],
@@ -106,7 +106,7 @@ const authNavigationConfig: NavigationTree[] = [
     //             translateKey: 'nav.authentication.forgotPassword',
     //             icon: 'forgotPassword',
     //             type: NAV_ITEM_TYPE_COLLAPSE,
-    //             authority: ['User','Administrator'],
+    //             authority: [ADMIN, USER],
     //             subMenu: [
     //                 {
     //                     key: 'authentication.forgotPasswordSimple',
@@ -115,7 +115,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.forgotPasswordSimple',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -125,7 +125,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.forgotPasswordSide',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -135,7 +135,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.forgotPasswordCover',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //             ],
@@ -147,7 +147,7 @@ const authNavigationConfig: NavigationTree[] = [
     //             translateKey: 'nav.authentication.resetPassword',
     //             icon: 'resetPassword',
     //             type: NAV_ITEM_TYPE_COLLAPSE,
-    //             authority: ['User','Administrator'],
+    //             authority: [ADMIN, USER],
     //             subMenu: [
     //                 {
     //                     key: 'authentication.resetPasswordSimple',
@@ -156,7 +156,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.resetPasswordSimple',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -166,7 +166,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.resetPasswordSide',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //                 {
@@ -176,7 +176,7 @@ const authNavigationConfig: NavigationTree[] = [
     //                     translateKey: 'nav.authentication.resetPasswordCover',
     //                     icon: '',
     //                     type: NAV_ITEM_TYPE_ITEM,
-    //                     authority: ['User','Administrator'],
+    //                     authority: [ADMIN, USER],
     //                     subMenu: [],
     //                 },
     //             ],

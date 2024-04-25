@@ -15,7 +15,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
         translateKey: 'nav.uiComponents',
         icon: 'uiComponents',
         type: NAV_ITEM_TYPE_TITLE,
-        authority: ['User','Administrator'],
+        authority: [ADMIN, USER],
         subMenu: [
             // {
             //     key: 'uiComponent.common',
@@ -24,7 +24,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsCommon.common',
             //     icon: 'common',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.common.button',
@@ -33,7 +33,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsCommon.button',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -43,7 +43,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsCommon.grid',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -53,7 +53,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsCommon.typography',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -63,7 +63,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsCommon.icons',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -75,7 +75,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsFeeback.feedback',
             //     icon: 'feedback',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.feedback.alert',
@@ -84,7 +84,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.alert',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -94,7 +94,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.dialog',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -104,7 +104,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.drawer',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -114,7 +114,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.progress',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -124,7 +124,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.skeleton',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -134,7 +134,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.spinner',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -144,7 +144,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsFeeback.toast',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -156,7 +156,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsDataDisplay.dataDisplay',
             //     icon: 'dataDisplay',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.dataDisplay.avatar',
@@ -165,7 +165,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.avatar',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -175,7 +175,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.badge',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -185,7 +185,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.calendar',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -195,7 +195,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.cards',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -205,7 +205,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.table',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -215,7 +215,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.tag',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -225,7 +225,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.timeline',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -235,7 +235,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsDataDisplay.tooltip',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -247,7 +247,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsForms.forms',
             //     icon: 'forms',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.forms.checkbox',
@@ -256,7 +256,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.checkbox',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -266,7 +266,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.datePicker',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -276,7 +276,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.formControl',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -286,7 +286,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.input',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -296,7 +296,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.inputGroup',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -306,7 +306,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.radio',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -316,7 +316,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.segment',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -326,7 +326,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.select',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -336,7 +336,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.switcher',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -346,7 +346,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.timeInput',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -356,7 +356,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsForms.upload',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -368,7 +368,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsNavigation.navigation',
             //     icon: 'navigation',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.navigation.dropdown',
@@ -377,7 +377,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsNavigation.dropdown',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -387,7 +387,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsNavigation.menu',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -397,7 +397,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsNavigation.pagination',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -407,7 +407,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsNavigation.steps',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -417,7 +417,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsNavigation.tabs',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],
@@ -429,7 +429,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.uiComponentsGraph.graph',
             //     icon: 'graph',
             //     type: NAV_ITEM_TYPE_COLLAPSE,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [
             //         {
             //             key: 'uiComponent.graph.charts',
@@ -438,7 +438,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsGraph.charts',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //         {
@@ -448,7 +448,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
             //             translateKey: 'nav.uiComponentsGraph.maps',
             //             icon: '',
             //             type: NAV_ITEM_TYPE_ITEM,
-            //             authority: ['User','Administrator'],
+            //             authority: [ADMIN, USER],
             //             subMenu: [],
             //         },
             //     ],

@@ -14,7 +14,7 @@ const docNavigationConfig: NavigationTree[] = [
         translateKey: 'nav.docs.guide',
         icon: 'guide',
         type: NAV_ITEM_TYPE_TITLE,
-        authority: ['User','Administrator'],
+        authority: [ADMIN, USER],
         subMenu: [
             // {
             //     key: 'docs.documentation',
@@ -23,7 +23,7 @@ const docNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.docs.documentation',
             //     icon: 'documentation',
             //     type: NAV_ITEM_TYPE_ITEM,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [],
             // },
             // {
@@ -33,7 +33,7 @@ const docNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.docs.sharedComponentDoc',
             //     icon: 'sharedComponentDoc',
             //     type: NAV_ITEM_TYPE_ITEM,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [],
             // },
             // {
@@ -43,7 +43,7 @@ const docNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.docs.utilsDoc',
             //     icon: 'utilsDoc',
             //     type: NAV_ITEM_TYPE_ITEM,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [],
             // },
             // {
@@ -53,7 +53,7 @@ const docNavigationConfig: NavigationTree[] = [
             //     translateKey: 'nav.docs.changeLog',
             //     icon: 'changeLog',
             //     type: NAV_ITEM_TYPE_ITEM,
-            //     authority: ['User','Administrator'],
+            //     authority: [ADMIN, USER],
             //     subMenu: [],
             // },
         ],

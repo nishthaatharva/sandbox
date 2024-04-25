@@ -8,7 +8,6 @@ interface AuthorityCheckProps extends CommonProps {
 }
 
 const AuthorityCheck = (props: AuthorityCheckProps) => {
-    debugger
     const { userAuthority = [], authority = [], children } = props
     const { decodedToken } = useAuth();
 
